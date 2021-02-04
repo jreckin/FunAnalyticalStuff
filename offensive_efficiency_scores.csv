@@ -1,4 +1,4 @@
-﻿DateOfGame,Team,Opponent,PointsScored,FieldGoalAttempts,FieldGoalsMade,OffensiveRebounds,Assists,Turnovers,WinOrLoss,OffensiveEfficency,EfficentPointsScored,RawEOP
+﻿DateOfGame,Team,Opponent,PointsScored,FieldGoalAttempts,FieldGoalsMade,OffensiveRebounds,Assists,Turnovers,WinOrLoss,OffensiveEfficiency,EfficientPointsScored,RawEOP
 12/3/2020,Kaukauna,Appleton North,73,51,20,10,7,11,Win,0.457627119,33.40677966,35.84135593
 12/4/2020,Kaukauna,Oshkosh West,72,48,25,3,14,10,Win,0.565217391,40.69565217,46.70956522
 12/8/2020,Kaukauna,Appleton East,86,56,27,6,14,15,Win,0.518987342,44.63291139,50.15493671
