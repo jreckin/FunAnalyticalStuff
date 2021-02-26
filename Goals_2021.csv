@@ -9,5 +9,7 @@ Date,DayOfWeek,WakeUp,BedTime,HoursOfSleep,PuttsHit,PagesRead,Water,Vitamins,Cre
 2/19/2021,Friday,6,12.25,6.75,75,102,48,Yes,Yes,Yes,62,No,Yes,171,8.25,1,No,Yes,0,No,Yes,D-Day,5,8,3
 2/20/2021,Saturday,7.5,12,8.5,0,0,48,Yes,Yes,Yes,61,No,No,171,5.4,2,No,No,0,No,Yes,Machine Learning Meeting,6,5,-1
 2/21/2021,Sunday,9.6,11,5.25,0,0,48,No,No,Yes,59,No,No,171,4.9,2,Yes,No,0,No,Yes,Relational Algebra,5,3,-2
-2/21/2021,Monday,5,11,5.25,0,70,72,No,No,Yes,57,Yes,No,171,7.5,1,No,Yes,0,Yes,Yes,Machine Learning Methods,6,4,-2
-2/22/2021,Tuesday,4.2,,4.5,,100,,,,,,,,171,,,Yes,Yes,,Yes,,,7,,
+2/22/2021,Monday,5,11,5.25,0,70,72,No,No,Yes,57,Yes,No,171,7.5,1,No,Yes,0,Yes,Yes,Machine Learning Methods,6,4,-2
+2/23/2021,Tuesday,4.2,9.9,4.5,75,100,72,Yes,No,Yes,57,No,Yes,171,7.95,2,Yes,Yes,0,Yes,No,NA,7,5,-2
+2/24/2021,Wednesday,6.17,1.17,7.2,0,25,72,No,No,Yes,57,No,No,171,7,0,No,No,0,No,Yes,Deploy Machine Learning ,5,7,2
+2/25/2021,Thursday,6.5,,4.75,,,96,,,,,,No,171,,,,,,,,,6,,-6
