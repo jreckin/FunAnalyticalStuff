@@ -5,6 +5,6 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 import plotly.express as px
 
-game = game(50, 25, 11, 21, 12, 62)
+game = game(55, 17, 6, 1, 3, 44)
 
 prediction = predict(game)
