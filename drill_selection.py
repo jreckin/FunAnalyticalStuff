@@ -80,18 +80,16 @@ def importance(round_x):
   
 def drill_suggestor(round_x):
     your_game = importance(round_x)
-    if your_game.iloc[0,3] < 0 and your_game.iloc[1,3] < 0 and your_game.iloc[2,3] < 0 and your_game.iloc[3,3] < 0 and your_game.iloc[7,3] < 0 and your_game.iloc[8,3] < 0 and your_game.iloc[4,3] > 0 and your_game.iloc[5,3] > 0 and your_game.iloc[6,3] > 0 and your_game.iloc[9,3] > 0: 
+    if your_game.iloc[0,3] < 0 and your_game.iloc[1,3] < 0 and your_game.iloc[7,3] < 0 and your_game.iloc[8,3] < 0 and your_game.iloc[4,3] < 0 and your_game.iloc[5,3] > 0 and your_game.iloc[6,3] > 0 and your_game.iloc[9,3] > 0: 
         print("Work on everything")
-    elif your_game.iloc[0,3] > 0 and your_game.iloc[1,3] > 0 and your_game.iloc[2,3] > 0 and your_game.iloc[3,3] > 0 and your_game.iloc[7,3] > 0 and your_game.iloc[8,3] > 0 and your_game.iloc[4,3] < 0 and your_game.iloc[5,3] < 0 and your_game.iloc[6,3] < 0 and your_game.iloc[9,3] < 0:
+    elif your_game.iloc[0,3] > 0 and your_game.iloc[1,3] > 0  and your_game.iloc[7,3] > 0 and your_game.iloc[8,3] > 0 and your_game.iloc[4,3] > 0 and your_game.iloc[5,3] < 0 and your_game.iloc[6,3] < 0 and your_game.iloc[9,3] < 0:
         print("Great day!")
     else:
         if your_game.iloc[0, 3] < 0:
             print("Work on chipping")
         elif your_game.iloc[1, 3] < 0:
             print("Work on irons")
-        elif your_game.iloc[3,3] < 0:
-            print("Hit the ball closer on shots into green")
-        elif your_game.iloc[4,3] > 0:
+        elif your_game.iloc[4,3] < 0:
             print("Hit the ball closer into the green")
         elif your_game.iloc[5,3] > 0:
             print("Hit more greens")
@@ -100,6 +98,6 @@ def drill_suggestor(round_x):
         elif your_game.iloc[7, 3] < 0:
             print("Make more putts inside ten feet")
         elif your_game.iloc[8, 3] < 0:
-            print("Hit driver more")
+            print("Hit driver straighter")
         elif your_game.iloc[9, 3] > 0:
             print("Work on wedges")
