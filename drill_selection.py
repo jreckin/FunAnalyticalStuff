@@ -101,3 +101,169 @@ def drill_suggestor(round_x):
             print("Hit driver straighter")
         elif your_game.iloc[9, 3] > 0:
             print("Work on wedges")
+
+
+def suggest_drills(round_x):
+    def up_and_down_percentage(round_x):
+        your_game = importance(round_x)
+        UpAndDownSuccessPercentage = your_game.iloc[0, 3]
+        if UpAndDownSuccessPercentage > 50:
+            pass
+        else:
+            if UpAndDownSuccessPercentage < 50 and UpAndDownSuccessPercentage > 25:
+                suggestion = "Good day, but can be better!"
+            elif UpAndDownSuccessPercentage < 25 and UpAndDownSuccessPercentage > 0:
+                suggestion = "Slightly above average, keep working"
+            elif UpAndDownSuccessPercentage == 0:
+                suggestion = "Right at your average"
+            elif UpAndDownSuccessPercentage < 0 and UpAndDownSuccessPercentage > -25:
+                suggestion = "Slightly below average, work harder"
+            elif UpAndDownSuccessPercentage < -25 and UpAndDownSuccessPercentage > -50:
+                suggestion = "Really bad day, focus on this"
+            print(suggestion)
+
+    def greens_hit(round_x):
+        your_game = importance(round_x)
+        Greens = your_game.iloc[1, 3]
+        if Greens < 7 and Greens > 3:
+            pass
+        else:
+            if Greens < 3 and Greens > 0:
+                suggestion = "You hit the ball slightly above average today"
+            elif Greens < 0 and Greens > -3:
+                suggestion = "You hit the ball slightly below average today"
+            elif Greens < -3 and Greens > -7:
+                suggestion = "You hit the ball poorly today"
+            elif Greens < -7:
+                suggestion = "Wow, that was terrible"
+            print(suggestion)
+
+    def putts_inside_ten_made(round_x):
+        your_game = importance(round_x)
+        PuttsInsideTenFeetMade = your_game.iloc[2, 3]
+        if PuttsInsideTenFeetMade > 0 and PuttsInsideTenFeetMade < 1.1:
+            suggestion = 'Made slightly more putts inside 10 feet'
+        elif PuttsInsideTenFeetMade > 1.1:
+            suggestion = 'Made more putts today inside of 10 feet'
+        elif PuttsInsideTenFeetMade > -2 and PuttsInsideTenFeetMade < 0:
+            suggestion = 'Made less putts today inside of 10 feet'
+        elif PuttsInsideTenFeetMade < -2:
+            suggestion = 'Hit the ball closer or you chipped in a shit ton'
+        print(suggestion)
+
+    def up_and_down_success(round_x):
+        your_game = importance(round_x)
+        UpAndDownSuccess = your_game.iloc[3, 3]
+        if UpAndDownSuccess > 2 and UpAndDownSuccess < 5:
+            suggestion = 'You either hit less greens, or got up and down a lot'
+        elif UpAndDownSuccess > 5:
+            suggestion = 'You missed greens but got up and down a lot'
+        elif UpAndDownSuccess < 1 and UpAndDownSuccess > -1:
+            suggestion = 'Average day getting up and down'
+        elif UpAndDownSuccess < -1 and UpAndDownSuccess > -3:
+            suggestion = 'You either hit a lot of greens or did not get up and down a lot'
+        else:
+            suggestion = 'Can not interpret round data'
+        print(suggestion)
+
+    def putts_inside_ten_attempted(round_x):
+        your_game = importance(round_x)
+        PuttsInsideTenFeetAttempted = your_game.iloc[4, 3]
+        if PuttsInsideTenFeetAttempted > 0 and PuttsInsideTenFeetAttempted < 5:
+            suggestion = 'You hit the ball really close today, or missed a lot of putts inside ten feet'
+        elif PuttsInsideTenFeetAttempted < 0 and PuttsInsideTenFeetAttempted > -5:
+            suggestion = 'You did not hit the ball close today, or made a lot of putts inside ten feet'
+        else:
+            suggestion = 'Can not give feedback with this data'
+        print(suggestion) 
+
+    def up_and_down_attempts(round_x):
+        your_game = importance(round_x)
+        UpAndDownAttempts = your_game.iloc[5, 3]
+        if UpAndDownAttempts < 0:
+            suggestion = 'You hit more greens today'
+        else:
+            suggestion = 'Focus on hitting more greens next round'
+        print(suggestion)
+
+    def putts(round_x):
+        your_game = importance(round_x)
+        Putts = your_game.iloc[6, 3]
+        if Putts < -3:
+            pass
+        else:
+            if Putts > 0 and Putts < 3:
+                suggestion = 'More putts today, focus on speed control or putts inside ten feet'
+            elif Putts > 3 and Putts < 5:
+                suggestion = 'Really below average putting day, focus on this more in practice'
+            elif Putts > 5:
+                suggestion = 'Absolutley terrible day putting'
+            elif Putts < 0 and Putts > -3:
+                suggestion = 'Above average day of putting, but room to grow'
+            print(suggestion)
+        
+    def putts_inside_ten_percentage(round_x):
+        your_game = importance(round_x)
+        PuttsInsideTenFeetMakePercentage = your_game.iloc[7, 3]
+        if PuttsInsideTenFeetMakePercentage > 10:
+            pass
+        else:
+            if PuttsInsideTenFeetMakePercentage > 0 and PuttsInsideTenFeetMakePercentage < 10:
+                suggestion = 'Above average day putting inside ten feet, but room to improve'
+            elif PuttsInsideTenFeetMakePercentage < 0 and PuttsInsideTenFeetMakePercentage > -5:
+                suggestion = 'Slightly below average day putting inside ten feet, work a little more on this'
+            elif PuttsInsideTenFeetMakePercentage < -5 and PuttsInsideTenFeetMakePercentage > -20:
+                suggestion = 'Really below average day putting, focus on this in practice'
+            else:
+                suggestion = 'Quit golf'
+            print(suggestion)
+
+    def fairways(round_x):
+        your_game = importance(round_x)
+        Fairways = your_game.iloc[8 , 3]
+        if Fairways > 3:
+            pass
+        else:
+            if Fairways > 0 and Fairways < 3:
+                suggestion = 'Slightly above average day off the tee, but room to improve'
+            elif Fairways < 0 and Fairways > -3:
+                suggestion = 'Slightly below average day off the tee, focus on this in practice'
+            else:
+                suggestion = 'Terrible day, really work on this'
+            print(suggestion)
+
+    def inside_100(round_x):
+        your_game = importance(round_x)
+        Inside100 = your_game.iloc[9, 3]
+        if Inside100 > 0 and Inside100 < 5:
+            suggestion = 'Below average day inside 100, focus on this in practice'
+        elif Inside100 > 5:
+            suggestion = 'Really bad day, make this is a priority in practice'
+        elif Inside100 < 0 and Inside100 > -4:
+            suggestion = 'Slighly above average day inside 100, but still room to improve'
+            print(suggestion)
+        else:
+            pass
+
+    print()
+    up_and_down_percentage(round_x)
+    print()
+    greens_hit(round_x)
+    print()
+    putts_inside_ten_made(round_x)
+    print()
+    up_and_down_success(round_x)
+    print()
+    putts_inside_ten_attempted(round_x)
+    print()
+    up_and_down_attempts(round_x)
+    print()
+    putts(round_x)
+    print()
+    putts_inside_ten_percentage(round_x)
+    print()
+    fairways(round_x)
+    print()
+    inside_100(round_x)
+    print()
+
