@@ -147,7 +147,7 @@ def suggest_drills(round_x):
             suggestion = 'Made more putts today inside of 10 feet'
         elif PuttsInsideTenFeetMade > -2 and PuttsInsideTenFeetMade < 0:
             suggestion = 'Made less putts today inside of 10 feet'
-        elif PuttsInsideTenFeetMade < -2:
+        else:
             suggestion = 'Hit the ball closer or you chipped in a shit ton'
         print(suggestion)
 
