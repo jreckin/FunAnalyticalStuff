@@ -57,9 +57,8 @@ def importance(round_x):
     y = golf_scores_with_average_num.AboveOrBelowAverage
     train_X, val_X, train_y, val_y = train_test_split(X, y, train_size = 0.8, test_size = 0.2, random_state = 1)
     model.fit(train_X, train_y)
-    perm = PermutationImportance(model, random_state = 1).fit(val_X, val_y)
-    importances = perm.feature_importances_
-    importances = pd.DataFrame(importances)
+    importances = pd.DataFrame(abs(model.coef_))
+    importances = importances.transpose()
     importances = importances.rename(index = {0 : 'Putts', 1: 'PuttsInsideTenFeetAttempted', 2: 'PuttsInsideTenFeetMade', 3:'PuttsInsideTenFeetMakePercentage' ,4: 'Fairways' , 5: 'Greens' , 6: 'Inside100'  ,7: 'UpAndDownAttempts' ,8: 'UpAndDownSuccess' , 9: 'UpAndDownSuccessPercentage' })
     #importances = importances.sort_values(by = [0], ascending = False)
     X_averages = X.mean()
@@ -106,7 +105,7 @@ def drill_suggestor(round_x):
 def suggest_drills(round_x):
     def up_and_down_percentage(round_x):
         your_game = importance(round_x)
-        UpAndDownSuccessPercentage = your_game.iloc[0, 3]
+        UpAndDownSuccessPercentage = your_game.loc[['UpAndDownSuccessPercentage'], ['Round Difference']].values
         if UpAndDownSuccessPercentage > 50:
             pass
         else:
@@ -124,7 +123,7 @@ def suggest_drills(round_x):
 
     def greens_hit(round_x):
         your_game = importance(round_x)
-        Greens = your_game.iloc[1, 3]
+        Greens = your_game.loc[['Greens'], ['Round Difference']].values
         if Greens < 7 and Greens > 3:
             pass
         else:
@@ -140,7 +139,7 @@ def suggest_drills(round_x):
 
     def putts_inside_ten_made(round_x):
         your_game = importance(round_x)
-        PuttsInsideTenFeetMade = your_game.iloc[2, 3]
+        PuttsInsideTenFeetMade = your_game.loc[['PuttsInsideTenFeetMade'], ['Round Difference']].values
         if PuttsInsideTenFeetMade > 0 and PuttsInsideTenFeetMade < 1.1:
             suggestion = 'Made slightly more putts inside 10 feet'
         elif PuttsInsideTenFeetMade > 1.1:
@@ -153,7 +152,7 @@ def suggest_drills(round_x):
 
     def up_and_down_success(round_x):
         your_game = importance(round_x)
-        UpAndDownSuccess = your_game.iloc[3, 3]
+        UpAndDownSuccess = your_game.loc[['UpAndDownSuccess'], ['Round Difference']].values
         if UpAndDownSuccess > 2 and UpAndDownSuccess < 5:
             suggestion = 'You either hit less greens, or got up and down a lot'
         elif UpAndDownSuccess > 5:
@@ -168,7 +167,7 @@ def suggest_drills(round_x):
 
     def putts_inside_ten_attempted(round_x):
         your_game = importance(round_x)
-        PuttsInsideTenFeetAttempted = your_game.iloc[4, 3]
+        PuttsInsideTenFeetAttempted = your_game.loc[['PuttsInsideTenFeetAttempted'], ['Round Difference']].values
         if PuttsInsideTenFeetAttempted > 0 and PuttsInsideTenFeetAttempted < 5:
             suggestion = 'You hit the ball really close today, or missed a lot of putts inside ten feet'
         elif PuttsInsideTenFeetAttempted < 0 and PuttsInsideTenFeetAttempted > -5:
@@ -179,7 +178,7 @@ def suggest_drills(round_x):
 
     def up_and_down_attempts(round_x):
         your_game = importance(round_x)
-        UpAndDownAttempts = your_game.iloc[5, 3]
+        UpAndDownAttempts = your_game.loc[['UpAndDownAttempts'], ['Round Difference']].values
         if UpAndDownAttempts < 0:
             suggestion = 'You hit more greens today'
         else:
@@ -188,7 +187,7 @@ def suggest_drills(round_x):
 
     def putts(round_x):
         your_game = importance(round_x)
-        Putts = your_game.iloc[6, 3]
+        Putts = your_game.loc[['Putts'], ['Round Difference']].values
         if Putts < -3:
             pass
         else:
@@ -204,7 +203,7 @@ def suggest_drills(round_x):
         
     def putts_inside_ten_percentage(round_x):
         your_game = importance(round_x)
-        PuttsInsideTenFeetMakePercentage = your_game.iloc[7, 3]
+        PuttsInsideTenFeetMakePercentage = your_game.loc[['PuttsInsideTenFeetMakePercentage'], ['Round Difference']].values
         if PuttsInsideTenFeetMakePercentage > 10:
             pass
         else:
@@ -220,7 +219,7 @@ def suggest_drills(round_x):
 
     def fairways(round_x):
         your_game = importance(round_x)
-        Fairways = your_game.iloc[8 , 3]
+        Fairways = your_game.loc[['Fairways'] , ['Round Difference']].values
         if Fairways > 3:
             pass
         else:
@@ -234,7 +233,7 @@ def suggest_drills(round_x):
 
     def inside_100(round_x):
         your_game = importance(round_x)
-        Inside100 = your_game.iloc[9, 3]
+        Inside100 = your_game.loc[['Inside100'], ['Round Difference']].values
         if Inside100 > 0 and Inside100 < 5:
             suggestion = 'Below average day inside 100, focus on this in practice'
         elif Inside100 > 5:

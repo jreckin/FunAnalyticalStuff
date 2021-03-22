@@ -8,7 +8,7 @@ import eli5
 from eli5.sklearn import PermutationImportance
 from sklearn.model_selection import train_test_split
 from drill_selection import putts_inside_of_ten, up_and_down, round_entry, predict, importance, drill_suggestor, suggest_drills
-from flask import Flask
+
 
 
     
