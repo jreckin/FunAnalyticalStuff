@@ -1,46 +1,61 @@
-Date,DayOfWeek,WakeUp,BedTime,HoursOfSleep,PuttsHit,PagesRead,Water,Vitamins,Creatine,FinishedSchool,HeartRate,Bible,Rosary,Weight,ScreenTime,BrushTeeth,Shower,Workout,InterviewQuestions,FruitOrVegetable,LearnedSomething,WhatWasLearned,HappinessLevelMorning,HappinessLevelNight,HappinessChange
-2/12/2021,Friday,4.75,11.33,5.5,5,43,24,Yes,Yes,Yes,65,No,No,171,6.5,1,No,Yes,0,Yes,Yes,Feature Engineering,5,6,1
-2/13/2021,Saturday,8,1.4,7.9,5,54,48,No,No,Yes,66,No,Yes,170.8,8.16,1,Yes,Yes,2,Yes,Yes,Deep Learning ,3,1,-2
-2/14/2021,Sunday,9.33,9.99,8.33,0,72,72,Yes,Yes,Yes,65,No,Yes,170.8,3.75,1,No,No,0,Yes,Yes,Deep Learning ,5,6,1
-2/15/2021,Monday,6.01,11.5,5.01,75,113,96,No,No,Yes,64,No,Yes,170.8,5.16,2,No,Yes,0,Yes,Yes,REM Sleep,5,4,-1
-2/16/2021,Tuesday,5.25,10.88,4.55,75,0,48,No,Yes,Yes,66,No,Yes,170.8,5.33,2,Yes,Yes,0,Yes,Yes,Machine Learning Explainability,7,5,-2
-2/17/2021,Wednesday,6.33,11.18,6.75,0,0,48,No,Yes,Yes,65,No,Yes,170.8,7.5,2,No,Yes,0,Yes,Yes,Study for Accounting,6,6,0
-2/18/2021,Thursday,6.25,9.75,6.5,75,90,72,No,No,Yes,63,No,Yes,171,6.33,2,Yes,Yes,0,No,Yes,Explained Machine Learning ,5,7,2
-2/19/2021,Friday,6,12.25,6.75,75,102,48,Yes,Yes,Yes,62,No,Yes,171,8.25,1,No,Yes,0,No,Yes,D-Day,5,8,3
-2/20/2021,Saturday,7.5,12,8.5,0,0,48,Yes,Yes,Yes,61,No,No,171,5.4,2,No,No,0,No,Yes,Machine Learning Meeting,6,5,-1
-2/21/2021,Sunday,9.6,11,5.25,0,0,48,No,No,Yes,59,No,No,171,4.9,2,Yes,No,0,No,Yes,Relational Algebra,5,3,-2
-2/22/2021,Monday,5,11,5.25,0,70,72,No,No,Yes,57,Yes,No,171,7.5,1,No,Yes,0,Yes,Yes,Machine Learning Methods,6,4,-2
-2/23/2021,Tuesday,4.2,9.9,4.5,75,100,72,Yes,No,Yes,57,No,Yes,171,7.95,2,Yes,Yes,0,Yes,No,NA,7,5,-2
-2/24/2021,Wednesday,6.17,1.17,7.2,0,25,72,No,No,Yes,57,No,No,171,7,0,No,No,0,No,Yes,Deploy Machine Learning ,5,7,2
-2/25/2021,Thursday,6.5,1.1,4.75,75,100,96,No,No,Yes,58,No,No,171,6.5,2,Yes,Yes,1,Yes,No,NA,6,5,-6
-2/26/2021,Friday,6.25,9.9,7.75,75,0,96,No,No,Yes,58,No,Yes,171,6,2,No,Yes,2,Yes,No,NA,5,5,0
-2/27/2021,Saturday,7.25,10.9,7.4,0,0,24,No,No,Yes,58,No,No,171,3.55,2,No,No,0,Yes,Yes,Dreaming ,7,8,1
-2/28/2021,Sunday,7,11.05,8,0,20,24,No,No,Yes,58,No,Yes,171,6.55,2,No,No,1,Yes,Yes,Pilot Testing,8,6,-2
-3/1/2021,Monday,5.5,11.45,5.75,0,25,24,No,No,No,57,No,Yes,171.2,7.75,2,Yes,Yes,0,No,Yes,Deep Learning TF,6,5,-1
-3/2/2021,Tuesday,4.4,11.5,4.55,50,25,24,No,Yes,Yes,58,Yes,Yes,171.2,7.5,1,Yes,Yes,0,No,No,NA,4,5,1
-3/3/2021,Wednesday,6.02,11,5.75,0,75,24,No,No,No,58,No,Yes,171.2,6.2,1,No,No,1,No,No,NA,6,7,1
-3/4/2021,Thursday,6.05,11.75,6.25,75,50,48,Yes,Yes,Yes,57,Yes,No,171.2,5.5,1,Yes,Yes,0,Yes,Yes,Machine Learning Model to function,4,5,1
-3/5/2021,Friday,6.25,11.4,5.4,75,75,48,No,No,Yes,56,No,No,171.2,5.4,1,No,Yes,0,Yes,Yes,Accounting,6,4,-2
-3/6/2021,Saturday,8,11.25,7.9,75,100,72,No,No,Yes,57,No,No,171.2,6.95,2,No,No,0,No,Yes,Drill suggestion ,6,6,0
-3/7/2021,Sunday,7,11.2,6.45,0,100,24,No,No,Yes,57,Yes,No,171.2,6.75,2,Yes,Yes,0,No,Yes,Working out is really good for me to sleep better,6,6,0
-3/8/2021,Monday,5.3,10,5.55,75,0,24,Yes,No,Yes,57,No,Yes,171.2,6.75,2,No,Yes,0,Yes,Yes,Subqueries in SQL,7,5,-2
-3/9/2021,Tuesday,5.25,11.25,6.6,75,50,48,Yes,Yes,Yes,56,No,Yes,171.2,5.95,2,No,Yes,0,No,No,NA,5,5,0
-3/10/2021,Wednesday,6.25,10.55,6.25,75,50,24,Yes,No,No,57,No,No,171.2,11.1,2,No,No,0,No,Yes,Outer joins in SQL,6,3,-3
-3/11/2021,Thursday,6.25,10.78,6.6,0,20,72,No,Yes,Yes,56,No,No,171.2,7.5,1,Yes,Yes,5,No,Yes,Grad school,7,8,1
-3/12/2021,Friday,6.25,11.5,6.27,75,20,24,No,No,No,55,No,Yes,170.8,5.1,2,No,Yes,2,Yes,No,NA,8,5,-3
-3/13/2021,Saturday,6.99,11.4,6.9,0,30,72,Yes,No,Yes,57,No,Yes,170.8,5.5,2,Yes,No,0,Yes,No,NA,4,5,1
-3/14/2021,Sunday,9.1,12.55,6.8,0,20,96,Yes,No,Yes,57,No,Yes,170.8,7,2,No,No,0,Yes,No,NA,5,5,0
-3/15/2021,Monday,6.25,10.25,4.9,75,0,24,No,No,Yes,56,No,Yes,170.8,6.25,2,Yes,Yes,0,No,No,NA,6,5,-1
-3/16/2021,Tuesday,4.55,11.4,5.2,50,40,72,No,No,Yes,57,No,Yes,170.8,6.4,2,Yes,Yes,0,Yes,No,NA,5,8,3
-3/17/2021,Wednesday,6.3,11.2,6.2,0,30,48,No,No,Yes,56,No,Yes,170.8,5.55,2,No,No,0,No,No,NA,5,5,0
-3/18/2021,Thursday,6.4,10.55,6.27,100,20,48,No,No,Yes,56,No,Yes,170.8,6.7,2,No,Yes,0,No,No,NA,5,5,0
-3/19/2021,Friday,6.27,11.75,6.9,30,10,24,No,No,Yes,55,No,Yes,170.8,6.5,2,No,Yes,0,Yes,No,NA,5,4,-1
-3/20/2021,Saturday,9.7,1.45,8.9,50,0,24,No,No,No,55,No,No,170.8,2.75,1,No,No,0,No,No,NA,6,6,0
-3/21/2021,Sunday,8,10.55,6,60,0,12,No,No,No,56,No,No,170.8,3.5,1,No,No,0,No,No,NA,6,4,-2
-3/22/2021,Monday,6,10.52,6.45,20,30,48,Yes,No,Yes,55,No,Yes,170.8,5.2,3,Yes,Yes,0,No,Yes,Accounting,7,8,1
-3/23/2021,Tuesday,4.9,12.25,6.95,50,10,12,No,No,Yes,54,No,Yes,170.8,6.45,1,No,No,0,No,No,NA,4,4,0
-3/24/2021,Wednesday,6.25,11.25,7.09,0,30,48,Yes,Yes,Yes,54,No,No,170.8,5.1,2,No,No,1,Yes,Yes,Monte Carlo for basketball,5,7,2
-3/25/2021,Thursday,6.2,10.52,6.1,50,30,24,Yes,Yes,Yes,54,No,Yes,170.8,5.5,1,Yes,Yes,1,No,No,NA,8,7,-1
-3/26/2021,Friday,6,9.52,6.55,75,20,72,Yes,No,Yes,55,No,No,171,5.9,2,Yes,Yes,0,Yes,Yes,Applying Monte Carlo,6,6,0
-3/27/2021,Saturday,9.25,10.26,10.25,0,0,48,Yes,Yes,Yes,56,No,No,171,9.55,3,No,Yes,0,Yes,Yes,Katelyn is needed,5,7,2
-3/28/2021,Sunday,6.95,,7.5,,,24,Yes,,,56,No,No,171,,1,No,Yes,,,,,5,,
+Date,DayOfWeek,WakeUp,BedTime,HoursOfSleep,PagesRead,Water,Vitamins,Creatine,FinishedSchool,HeartRate,Bible,Rosary,Weight,ScreenTime,BrushTeeth,Shower,Workout,InterviewQuestions,FruitOrVegetable,LearnedSomething,WhatWasLearned,HappinessLevelMorning,HappinessLevelNight,HappinessChange
+2/12/2021,Friday,4.75,11.33,5.5,43,24,Yes,Yes,Yes,65,No,No,171,6.5,1,No,Yes,0,Yes,Yes,Feature Engineering,5,6,1
+2/13/2021,Saturday,8,1.4,7.9,54,48,No,No,Yes,66,No,Yes,170.8,8.16,1,Yes,Yes,2,Yes,Yes,Deep Learning ,3,1,-2
+2/14/2021,Sunday,9.33,9.99,8.33,72,72,Yes,Yes,Yes,65,No,Yes,170.8,3.75,1,No,No,0,Yes,Yes,Deep Learning ,5,6,1
+2/15/2021,Monday,6.01,11.5,5.01,113,96,No,No,Yes,64,No,Yes,170.8,5.16,2,No,Yes,0,Yes,Yes,REM Sleep,5,4,-1
+2/16/2021,Tuesday,5.25,10.88,4.55,0,48,No,Yes,Yes,66,No,Yes,170.8,5.33,2,Yes,Yes,0,Yes,Yes,Machine Learning Explainability,7,5,-2
+2/17/2021,Wednesday,6.33,11.18,6.75,0,48,No,Yes,Yes,65,No,Yes,170.8,7.5,2,No,Yes,0,Yes,Yes,Study for Accounting,6,6,0
+2/18/2021,Thursday,6.25,9.75,6.5,90,72,No,No,Yes,63,No,Yes,171,6.33,2,Yes,Yes,0,No,Yes,Explained Machine Learning ,5,7,2
+2/19/2021,Friday,6,12.25,6.75,102,48,Yes,Yes,Yes,62,No,Yes,171,8.25,1,No,Yes,0,No,Yes,D-Day,5,8,3
+2/20/2021,Saturday,7.5,12,8.5,0,48,Yes,Yes,Yes,61,No,No,171,5.4,2,No,No,0,No,Yes,Machine Learning Meeting,6,5,-1
+2/21/2021,Sunday,9.6,11,5.25,0,48,No,No,Yes,59,No,No,171,4.9,2,Yes,No,0,No,Yes,Relational Algebra,5,3,-2
+2/22/2021,Monday,5,11,5.25,70,72,No,No,Yes,57,Yes,No,171,7.5,1,No,Yes,0,Yes,Yes,Machine Learning Methods,6,4,-2
+2/23/2021,Tuesday,4.2,9.9,4.5,100,72,Yes,No,Yes,57,No,Yes,171,7.95,2,Yes,Yes,0,Yes,No,NA,7,5,-2
+2/24/2021,Wednesday,6.17,1.17,7.2,25,72,No,No,Yes,57,No,No,171,7,0,No,No,0,No,Yes,Deploy Machine Learning ,5,7,2
+2/25/2021,Thursday,6.5,1.1,4.75,100,96,No,No,Yes,58,No,No,171,6.5,2,Yes,Yes,1,Yes,No,NA,6,5,-6
+2/26/2021,Friday,6.25,9.9,7.75,0,96,No,No,Yes,58,No,Yes,171,6,2,No,Yes,2,Yes,No,NA,5,5,0
+2/27/2021,Saturday,7.25,10.9,7.4,0,24,No,No,Yes,58,No,No,171,3.55,2,No,No,0,Yes,Yes,Dreaming ,7,8,1
+2/28/2021,Sunday,7,11.05,8,20,24,No,No,Yes,58,No,Yes,171,6.55,2,No,No,1,Yes,Yes,Pilot Testing,8,6,-2
+3/1/2021,Monday,5.5,11.45,5.75,25,24,No,No,No,57,No,Yes,171.2,7.75,2,Yes,Yes,0,No,Yes,Deep Learning TF,6,5,-1
+3/2/2021,Tuesday,4.4,11.5,4.55,25,24,No,Yes,Yes,58,Yes,Yes,171.2,7.5,1,Yes,Yes,0,No,No,NA,4,5,1
+3/3/2021,Wednesday,6.02,11,5.75,75,24,No,No,No,58,No,Yes,171.2,6.2,1,No,No,1,No,No,NA,6,7,1
+3/4/2021,Thursday,6.05,11.75,6.25,50,48,Yes,Yes,Yes,57,Yes,No,171.2,5.5,1,Yes,Yes,0,Yes,Yes,Machine Learning Model to function,4,5,1
+3/5/2021,Friday,6.25,11.4,5.4,75,48,No,No,Yes,56,No,No,171.2,5.4,1,No,Yes,0,Yes,Yes,Accounting,6,4,-2
+3/6/2021,Saturday,8,11.25,7.9,100,72,No,No,Yes,57,No,No,171.2,6.95,2,No,No,0,No,Yes,Drill suggestion ,6,6,0
+3/7/2021,Sunday,7,11.2,6.45,100,24,No,No,Yes,57,Yes,No,171.2,6.75,2,Yes,Yes,0,No,Yes,Working out is really good for me to sleep better,6,6,0
+3/8/2021,Monday,5.3,10,5.55,0,24,Yes,No,Yes,57,No,Yes,171.2,6.75,2,No,Yes,0,Yes,Yes,Subqueries in SQL,7,5,-2
+3/9/2021,Tuesday,5.25,11.25,6.6,50,48,Yes,Yes,Yes,56,No,Yes,171.2,5.95,2,No,Yes,0,No,No,NA,5,5,0
+3/10/2021,Wednesday,6.25,10.55,6.25,50,24,Yes,No,No,57,No,No,171.2,11.1,2,No,No,0,No,Yes,Outer joins in SQL,6,3,-3
+3/11/2021,Thursday,6.25,10.78,6.6,20,72,No,Yes,Yes,56,No,No,171.2,7.5,1,Yes,Yes,5,No,Yes,Grad school,7,8,1
+3/12/2021,Friday,6.25,11.5,6.27,20,24,No,No,No,55,No,Yes,170.8,5.1,2,No,Yes,2,Yes,No,NA,8,5,-3
+3/13/2021,Saturday,6.99,11.4,6.9,30,72,Yes,No,Yes,57,No,Yes,170.8,5.5,2,Yes,No,0,Yes,No,NA,4,5,1
+3/14/2021,Sunday,9.1,12.55,6.8,20,96,Yes,No,Yes,57,No,Yes,170.8,7,2,No,No,0,Yes,No,NA,5,5,0
+3/15/2021,Monday,6.25,10.25,4.9,0,24,No,No,Yes,56,No,Yes,170.8,6.25,2,Yes,Yes,0,No,No,NA,6,5,-1
+3/16/2021,Tuesday,4.55,11.4,5.2,40,72,No,No,Yes,57,No,Yes,170.8,6.4,2,Yes,Yes,0,Yes,No,NA,5,8,3
+3/17/2021,Wednesday,6.3,11.2,6.2,30,48,No,No,Yes,56,No,Yes,170.8,5.55,2,No,No,0,No,No,NA,5,5,0
+3/18/2021,Thursday,6.4,10.55,6.27,20,48,No,No,Yes,56,No,Yes,170.8,6.7,2,No,Yes,0,No,No,NA,5,5,0
+3/19/2021,Friday,6.27,11.75,6.9,10,24,No,No,Yes,55,No,Yes,170.8,6.5,2,No,Yes,0,Yes,No,NA,5,4,-1
+3/20/2021,Saturday,9.7,1.45,8.9,0,24,No,No,No,55,No,No,170.8,2.75,1,No,No,0,No,No,NA,6,6,0
+3/21/2021,Sunday,8,10.55,6,0,12,No,No,No,56,No,No,170.8,3.5,1,No,No,0,No,No,NA,6,4,-2
+3/22/2021,Monday,6,10.52,6.45,30,48,Yes,No,Yes,55,No,Yes,170.8,5.2,3,Yes,Yes,0,No,Yes,Accounting,7,8,1
+3/23/2021,Tuesday,4.9,12.25,6.95,10,12,No,No,Yes,54,No,Yes,170.8,6.45,1,No,No,0,No,No,NA,4,4,0
+3/24/2021,Wednesday,6.25,11.25,7.09,30,48,Yes,Yes,Yes,54,No,No,170.8,5.1,2,No,No,1,Yes,Yes,Monte Carlo for basketball,5,7,2
+3/25/2021,Thursday,6.2,10.52,6.1,30,24,Yes,Yes,Yes,54,No,Yes,170.8,5.5,1,Yes,Yes,1,No,No,NA,8,7,-1
+3/26/2021,Friday,6,9.52,6.55,20,72,Yes,No,Yes,55,No,No,171,5.9,2,Yes,Yes,0,Yes,Yes,Applying Monte Carlo,6,6,0
+3/27/2021,Saturday,9.25,10.26,10.25,0,48,Yes,Yes,Yes,56,No,No,171,9.55,3,No,Yes,0,Yes,Yes,Katelyn is needed,5,7,2
+3/28/2021,Sunday,6.95,10.7,7.5,20,24,Yes,Yes,No,56,No,No,171,5.2,1,No,Yes,0,Yes,Yes,Done with golf,5,5,0
+3/29/2021,Monday,6.25,10.77,6.75,20,48,Yes,No,Yes,57,No,No,171,5.75,2,Yes,Yes,0,Yes,No,NA,5,4,-1
+3/30/2021,Tuesday,5,10,7.55,30,12,No,No,Yes,57,No,No,171,5.25,1,No,No,0,No,Yes,Need allergy med,3,5,2
+3/31/2021,Wednesday,6.25,9.99,7.25,0,24,Yes,Yes,Yes,55,No,Yes,171,5.5,1,No,No,5,Yes,Yes,Blue Prism,7,4,-3
+4/1/2021,Thursday,5.25,11.4,6.52,0,24,Yes,No,No,56,No,No,171,4.1,2,Yes,Yes,0,No,No,NA,4,2,-2
+4/2/2021,Friday,6,9.45,5.8,0,24,Yes,No,No,58,No,No,171,4.75,2,No,Yes,0,No,Yes,Done with golf,3,2,-1
+4/3/2021,Saturday,5.75,11.35,6.77,0,18,Yes,No,No,59,No,No,171,6.25,1,No,Yes,0,No,No,NA,4,4,0
+4/4/2021,Sunday,4.65,12.95,4.5,0,72,No,No,No,60,No,No,171,7.7,1,Yes,No,2,Yes,Yes,Love Green Bay,7,9,2
+4/5/2021,Monday,7.95,10.23,6.75,0,96,Yes,No,Yes,62,No,No,171,4.1,2,No,Yes,0,Yes,Yes,Need Katelyn,8,7,-1
+4/6/2021,Tuesday,5.15,10.02,5.95,30,24,No,No,Yes,63,No,No,171,6.48,1,No,Yes,0,No,Yes,Working out is good for me,5,7,2
+4/7/2021,Wednesday,6.3,9.9,7.15,20,24,Yes,No,Yes,63,Yes,Yes,171,4.9,2,Yes,No,5,Yes,No,NA,7,7,0
+4/8/2021,Thursday,6.24,10,7.4,0,24,Yes,No,No,61,Yes,Yes,171,3.6,1,No,Yes,0,No,Yes,Golf is toxic,7,4,-3
+4/9/2021,Friday,6.76,10.7,7.65,0,48,Yes,No,No,64,No,No,171,4.5,0,Yes,Yes,0,No,No,NA,5,5,0
+4/10/2021,Saturday,4.74,2.3,5.2,0,48,Yes,No,No,64,No,No,170,4.55,0,No,Yes,0,No,No,NA,3,7,4
+4/11/2021,Sunday,9.05,10.5,6,0,24,No,No,Yes,65,No,No,170,2.2,1,Yes,No,4,Yes,Yes,Need Katelyn,6,8,2
+4/12/2021,Monday,5.95,,6.55,,,Yes,,,63,,,170,,,,,,Yes,,,6,,
