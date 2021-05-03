@@ -1,0 +1,12 @@
+SpotOnCourt,X2,Y2
+3LeftCorner,0,0
+3LeftWing,10,20
+3Top,20,40
+3RightWing,30,60
+3RightCorner,40,80
+MidLeftCorner,50,100
+MidLeftWing,60,120
+MidTop,70,140
+MidRightWing,80,160
+MidRightCorner,90,180
+Paint,100,200
