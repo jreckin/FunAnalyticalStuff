@@ -1,0 +1,1198 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20203.20.0918.1727                               -->
+<workbook original-version='18.1' source-build='2020.3.1 (20203.20.0918.1727)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='daily_tracking' inline='true' name='federated.0z1rcmd00v14vr13nimkm03v82d9' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='daily_tracking' name='textscan.0eq92v815ydk9o0zntzpx18ehmq0'>
+            <connection class='textscan' directory='C:/Users/Jake/Documents/GitHub/FunAnalyticalStuff' filename='daily_tracking.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.0eq92v815ydk9o0zntzpx18ehmq0' name='daily_tracking.csv' table='[daily_tracking#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='date' name='Date' ordinal='0' />
+            <column datatype='string' name='DayOfWeek' ordinal='1' />
+            <column datatype='real' name='WakeUpTime' ordinal='2' />
+            <column datatype='real' name='BedTime' ordinal='3' />
+            <column datatype='real' name='HoursOfSleep' ordinal='4' />
+            <column datatype='integer' name='SleepScore' ordinal='5' />
+            <column datatype='string' name='UpAtFirstAlarm' ordinal='6' />
+            <column datatype='string' name='Breakfast' ordinal='7' />
+            <column datatype='integer' name='HRV' ordinal='8' />
+            <column datatype='integer' name='OxygenSaturation' ordinal='9' />
+            <column datatype='integer' name='FocusLevel' ordinal='10' />
+            <column datatype='string' name='Workout' ordinal='11' />
+            <column datatype='string' name='WorkoutScore' ordinal='12' />
+            <column datatype='integer' name='BrushedTeeth' ordinal='13' />
+            <column datatype='integer' name='Water' ordinal='14' />
+            <column datatype='integer' name='HeartRate' ordinal='15' />
+            <column datatype='string' name='Shower' ordinal='16' />
+            <column datatype='string' name='ProductiveMorning' ordinal='17' />
+            <column datatype='string' name='MorningProductiveThing' ordinal='18' />
+            <column datatype='string' name='FruitOrVegetable' ordinal='19' />
+            <column datatype='string' name='LearnedSomething' ordinal='20' />
+            <column datatype='string' name='WhatWasLearned' ordinal='21' />
+            <column datatype='string' name='Rosary' ordinal='22' />
+            <column datatype='string' name='Bible' ordinal='23' />
+            <column datatype='integer' name='PagesRead' ordinal='24' />
+            <column datatype='string' name='BookBeingRead' ordinal='25' />
+            <column datatype='string' name='Vitamins' ordinal='26' />
+            <column datatype='real' name='TimeTaken' ordinal='27' />
+            <column datatype='string' name='Journal' ordinal='28' />
+            <column datatype='string' name='Migraine' ordinal='29' />
+            <column datatype='string' name='Alcohol' ordinal='30' />
+            <column datatype='string' name='UsedPlanner' ordinal='31' />
+            <column datatype='real' name='ScreenTime' ordinal='32' />
+            <column datatype='integer' name='CaffeineIntake' ordinal='33' />
+            <column datatype='integer' name='FatigueLevelAt2' ordinal='34' />
+            <column datatype='integer' name='MorningHappinessLevel' ordinal='35' />
+            <column datatype='integer' name='NightHappinessLevel' ordinal='36' />
+            <column datatype='integer' name='HappinessChange' ordinal='37' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.0eq92v815ydk9o0zntzpx18ehmq0' name='daily_tracking.csv' table='[daily_tracking#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='date' name='Date' ordinal='0' />
+            <column datatype='string' name='DayOfWeek' ordinal='1' />
+            <column datatype='real' name='WakeUpTime' ordinal='2' />
+            <column datatype='real' name='BedTime' ordinal='3' />
+            <column datatype='real' name='HoursOfSleep' ordinal='4' />
+            <column datatype='integer' name='SleepScore' ordinal='5' />
+            <column datatype='string' name='UpAtFirstAlarm' ordinal='6' />
+            <column datatype='string' name='Breakfast' ordinal='7' />
+            <column datatype='integer' name='HRV' ordinal='8' />
+            <column datatype='integer' name='OxygenSaturation' ordinal='9' />
+            <column datatype='integer' name='FocusLevel' ordinal='10' />
+            <column datatype='string' name='Workout' ordinal='11' />
+            <column datatype='string' name='WorkoutScore' ordinal='12' />
+            <column datatype='integer' name='BrushedTeeth' ordinal='13' />
+            <column datatype='integer' name='Water' ordinal='14' />
+            <column datatype='integer' name='HeartRate' ordinal='15' />
+            <column datatype='string' name='Shower' ordinal='16' />
+            <column datatype='string' name='ProductiveMorning' ordinal='17' />
+            <column datatype='string' name='MorningProductiveThing' ordinal='18' />
+            <column datatype='string' name='FruitOrVegetable' ordinal='19' />
+            <column datatype='string' name='LearnedSomething' ordinal='20' />
+            <column datatype='string' name='WhatWasLearned' ordinal='21' />
+            <column datatype='string' name='Rosary' ordinal='22' />
+            <column datatype='string' name='Bible' ordinal='23' />
+            <column datatype='integer' name='PagesRead' ordinal='24' />
+            <column datatype='string' name='BookBeingRead' ordinal='25' />
+            <column datatype='string' name='Vitamins' ordinal='26' />
+            <column datatype='real' name='TimeTaken' ordinal='27' />
+            <column datatype='string' name='Journal' ordinal='28' />
+            <column datatype='string' name='Migraine' ordinal='29' />
+            <column datatype='string' name='Alcohol' ordinal='30' />
+            <column datatype='string' name='UsedPlanner' ordinal='31' />
+            <column datatype='real' name='ScreenTime' ordinal='32' />
+            <column datatype='integer' name='CaffeineIntake' ordinal='33' />
+            <column datatype='integer' name='FatigueLevelAt2' ordinal='34' />
+            <column datatype='integer' name='MorningHappinessLevel' ordinal='35' />
+            <column datatype='integer' name='NightHappinessLevel' ordinal='36' />
+            <column datatype='integer' name='HappinessChange' ordinal='37' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[daily_tracking.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Date</remote-name>
+            <remote-type>133</remote-type>
+            <local-name>[Date]</local-name>
+            <parent-name>[daily_tracking.csv]</parent-name>
+            <remote-alias>Date</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[daily_tracking.csv_EF151BF3525647AA8E406B76F72FDE0B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>DayOfWeek</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[DayOfWeek]</local-name>
+            <parent-name>[daily_tracking.csv]</parent-name>
+            <remote-alias>DayOfWeek</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[daily_tracking.csv_EF151BF3525647AA8E406B76F72FDE0B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>WakeUpTime</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[WakeUpTime]</local-name>
+            <parent-name>[daily_tracking.csv]</parent-name>
+            <remote-alias>WakeUpTime</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[daily_tracking.csv_EF151BF3525647AA8E406B76F72FDE0B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>BedTime</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[BedTime]</local-name>
+            <parent-name>[daily_tracking.csv]</parent-name>
+            <remote-alias>BedTime</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[daily_tracking.csv_EF151BF3525647AA8E406B76F72FDE0B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>HoursOfSleep</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[HoursOfSleep]</local-name>
+            <parent-name>[daily_tracking.csv]</parent-name>
+            <remote-alias>HoursOfSleep</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[daily_tracking.csv_EF151BF3525647AA8E406B76F72FDE0B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SleepScore</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[SleepScore]</local-name>
+            <parent-name>[daily_tracking.csv]</parent-name>
+            <remote-alias>SleepScore</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[daily_tracking.csv_EF151BF3525647AA8E406B76F72FDE0B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>UpAtFirstAlarm</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[UpAtFirstAlarm]</local-name>
+            <parent-name>[daily_tracking.csv]</parent-name>
+            <remote-alias>UpAtFirstAlarm</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[daily_tracking.csv_EF151BF3525647AA8E406B76F72FDE0B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Breakfast</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Breakfast]</local-name>
+            <parent-name>[daily_tracking.csv]</parent-name>
+            <remote-alias>Breakfast</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[daily_tracking.csv_EF151BF3525647AA8E406B76F72FDE0B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>HRV</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[HRV]</local-name>
+            <parent-name>[daily_tracking.csv]</parent-name>
+            <remote-alias>HRV</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[daily_tracking.csv_EF151BF3525647AA8E406B76F72FDE0B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>OxygenSaturation</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[OxygenSaturation]</local-name>
+            <parent-name>[daily_tracking.csv]</parent-name>
+            <remote-alias>OxygenSaturation</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[daily_tracking.csv_EF151BF3525647AA8E406B76F72FDE0B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>FocusLevel</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[FocusLevel]</local-name>
+            <parent-name>[daily_tracking.csv]</parent-name>
+            <remote-alias>FocusLevel</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[daily_tracking.csv_EF151BF3525647AA8E406B76F72FDE0B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Workout</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Workout]</local-name>
+            <parent-name>[daily_tracking.csv]</parent-name>
+            <remote-alias>Workout</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[daily_tracking.csv_EF151BF3525647AA8E406B76F72FDE0B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>WorkoutScore</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[WorkoutScore]</local-name>
+            <parent-name>[daily_tracking.csv]</parent-name>
+            <remote-alias>WorkoutScore</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[daily_tracking.csv_EF151BF3525647AA8E406B76F72FDE0B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>BrushedTeeth</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[BrushedTeeth]</local-name>
+            <parent-name>[daily_tracking.csv]</parent-name>
+            <remote-alias>BrushedTeeth</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[daily_tracking.csv_EF151BF3525647AA8E406B76F72FDE0B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Water</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Water]</local-name>
+            <parent-name>[daily_tracking.csv]</parent-name>
+            <remote-alias>Water</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[daily_tracking.csv_EF151BF3525647AA8E406B76F72FDE0B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>HeartRate</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[HeartRate]</local-name>
+            <parent-name>[daily_tracking.csv]</parent-name>
+            <remote-alias>HeartRate</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[daily_tracking.csv_EF151BF3525647AA8E406B76F72FDE0B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Shower</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Shower]</local-name>
+            <parent-name>[daily_tracking.csv]</parent-name>
+            <remote-alias>Shower</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[daily_tracking.csv_EF151BF3525647AA8E406B76F72FDE0B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ProductiveMorning</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[ProductiveMorning]</local-name>
+            <parent-name>[daily_tracking.csv]</parent-name>
+            <remote-alias>ProductiveMorning</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[daily_tracking.csv_EF151BF3525647AA8E406B76F72FDE0B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>MorningProductiveThing</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[MorningProductiveThing]</local-name>
+            <parent-name>[daily_tracking.csv]</parent-name>
+            <remote-alias>MorningProductiveThing</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[daily_tracking.csv_EF151BF3525647AA8E406B76F72FDE0B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>FruitOrVegetable</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[FruitOrVegetable]</local-name>
+            <parent-name>[daily_tracking.csv]</parent-name>
+            <remote-alias>FruitOrVegetable</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[daily_tracking.csv_EF151BF3525647AA8E406B76F72FDE0B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>LearnedSomething</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[LearnedSomething]</local-name>
+            <parent-name>[daily_tracking.csv]</parent-name>
+            <remote-alias>LearnedSomething</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[daily_tracking.csv_EF151BF3525647AA8E406B76F72FDE0B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>WhatWasLearned</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[WhatWasLearned]</local-name>
+            <parent-name>[daily_tracking.csv]</parent-name>
+            <remote-alias>WhatWasLearned</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[daily_tracking.csv_EF151BF3525647AA8E406B76F72FDE0B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Rosary</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Rosary]</local-name>
+            <parent-name>[daily_tracking.csv]</parent-name>
+            <remote-alias>Rosary</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[daily_tracking.csv_EF151BF3525647AA8E406B76F72FDE0B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Bible</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Bible]</local-name>
+            <parent-name>[daily_tracking.csv]</parent-name>
+            <remote-alias>Bible</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[daily_tracking.csv_EF151BF3525647AA8E406B76F72FDE0B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PagesRead</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[PagesRead]</local-name>
+            <parent-name>[daily_tracking.csv]</parent-name>
+            <remote-alias>PagesRead</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[daily_tracking.csv_EF151BF3525647AA8E406B76F72FDE0B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>BookBeingRead</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[BookBeingRead]</local-name>
+            <parent-name>[daily_tracking.csv]</parent-name>
+            <remote-alias>BookBeingRead</remote-alias>
+            <ordinal>25</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[daily_tracking.csv_EF151BF3525647AA8E406B76F72FDE0B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Vitamins</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Vitamins]</local-name>
+            <parent-name>[daily_tracking.csv]</parent-name>
+            <remote-alias>Vitamins</remote-alias>
+            <ordinal>26</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[daily_tracking.csv_EF151BF3525647AA8E406B76F72FDE0B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>TimeTaken</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[TimeTaken]</local-name>
+            <parent-name>[daily_tracking.csv]</parent-name>
+            <remote-alias>TimeTaken</remote-alias>
+            <ordinal>27</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[daily_tracking.csv_EF151BF3525647AA8E406B76F72FDE0B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Journal</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Journal]</local-name>
+            <parent-name>[daily_tracking.csv]</parent-name>
+            <remote-alias>Journal</remote-alias>
+            <ordinal>28</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[daily_tracking.csv_EF151BF3525647AA8E406B76F72FDE0B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Migraine</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Migraine]</local-name>
+            <parent-name>[daily_tracking.csv]</parent-name>
+            <remote-alias>Migraine</remote-alias>
+            <ordinal>29</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[daily_tracking.csv_EF151BF3525647AA8E406B76F72FDE0B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Alcohol</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Alcohol]</local-name>
+            <parent-name>[daily_tracking.csv]</parent-name>
+            <remote-alias>Alcohol</remote-alias>
+            <ordinal>30</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[daily_tracking.csv_EF151BF3525647AA8E406B76F72FDE0B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>UsedPlanner</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[UsedPlanner]</local-name>
+            <parent-name>[daily_tracking.csv]</parent-name>
+            <remote-alias>UsedPlanner</remote-alias>
+            <ordinal>31</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[daily_tracking.csv_EF151BF3525647AA8E406B76F72FDE0B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ScreenTime</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[ScreenTime]</local-name>
+            <parent-name>[daily_tracking.csv]</parent-name>
+            <remote-alias>ScreenTime</remote-alias>
+            <ordinal>32</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[daily_tracking.csv_EF151BF3525647AA8E406B76F72FDE0B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>CaffeineIntake</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[CaffeineIntake]</local-name>
+            <parent-name>[daily_tracking.csv]</parent-name>
+            <remote-alias>CaffeineIntake</remote-alias>
+            <ordinal>33</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[daily_tracking.csv_EF151BF3525647AA8E406B76F72FDE0B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>FatigueLevelAt2</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[FatigueLevelAt2]</local-name>
+            <parent-name>[daily_tracking.csv]</parent-name>
+            <remote-alias>FatigueLevelAt2</remote-alias>
+            <ordinal>34</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[daily_tracking.csv_EF151BF3525647AA8E406B76F72FDE0B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>MorningHappinessLevel</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[MorningHappinessLevel]</local-name>
+            <parent-name>[daily_tracking.csv]</parent-name>
+            <remote-alias>MorningHappinessLevel</remote-alias>
+            <ordinal>35</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[daily_tracking.csv_EF151BF3525647AA8E406B76F72FDE0B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>NightHappinessLevel</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[NightHappinessLevel]</local-name>
+            <parent-name>[daily_tracking.csv]</parent-name>
+            <remote-alias>NightHappinessLevel</remote-alias>
+            <ordinal>36</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[daily_tracking.csv_EF151BF3525647AA8E406B76F72FDE0B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>HappinessChange</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[HappinessChange]</local-name>
+            <parent-name>[daily_tracking.csv]</parent-name>
+            <remote-alias>HappinessChange</remote-alias>
+            <ordinal>37</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[daily_tracking.csv_EF151BF3525647AA8E406B76F72FDE0B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Bed Time' datatype='real' name='[BedTime]' role='measure' type='quantitative' />
+      <column caption='Book Being Read' datatype='string' name='[BookBeingRead]' role='dimension' type='nominal' />
+      <column caption='Brushed Teeth' datatype='integer' name='[BrushedTeeth]' role='measure' type='quantitative' />
+      <column caption='Caffeine Intake' datatype='integer' name='[CaffeineIntake]' role='measure' type='quantitative' />
+      <column caption='Day Of Week' datatype='string' name='[DayOfWeek]' role='dimension' type='nominal' />
+      <column caption='Focus Level' datatype='integer' name='[FocusLevel]' role='measure' type='quantitative' />
+      <column caption='Fruit Or Vegetable' datatype='string' name='[FruitOrVegetable]' role='dimension' type='nominal' />
+      <column caption='Happiness Change' datatype='integer' name='[HappinessChange]' role='measure' type='quantitative' />
+      <column caption='Heart Rate' datatype='integer' name='[HeartRate]' role='measure' type='quantitative' />
+      <column caption='Hours Of Sleep' datatype='real' name='[HoursOfSleep]' role='measure' type='quantitative' />
+      <column caption='Learned Something' datatype='string' name='[LearnedSomething]' role='dimension' type='nominal' />
+      <column caption='Morning Happiness Level' datatype='integer' name='[MorningHappinessLevel]' role='measure' type='quantitative' />
+      <column caption='Morning Productive Thing' datatype='string' name='[MorningProductiveThing]' role='dimension' type='nominal' />
+      <column caption='Night Happiness Level' datatype='integer' name='[NightHappinessLevel]' role='measure' type='quantitative' />
+      <column caption='Oxygen Saturation' datatype='integer' name='[OxygenSaturation]' role='measure' type='quantitative' />
+      <column caption='Pages Read' datatype='integer' name='[PagesRead]' role='measure' type='quantitative' />
+      <column caption='Productive Morning' datatype='string' name='[ProductiveMorning]' role='dimension' type='nominal' />
+      <column caption='Screen Time' datatype='real' name='[ScreenTime]' role='measure' type='quantitative' />
+      <column caption='Sleep Score' datatype='integer' name='[SleepScore]' role='measure' type='quantitative' />
+      <column caption='Time Taken' datatype='real' name='[TimeTaken]' role='measure' type='quantitative' />
+      <column caption='Up At First Alarm' datatype='string' name='[UpAtFirstAlarm]' role='dimension' type='nominal' />
+      <column caption='Used Planner' datatype='string' name='[UsedPlanner]' role='dimension' type='nominal' />
+      <column datatype='string' name='[Vitamins]' role='dimension' type='nominal' />
+      <column caption='Wake Up Time' datatype='real' name='[WakeUpTime]' role='measure' type='quantitative' />
+      <column caption='What Was Learned' datatype='string' name='[WhatWasLearned]' role='dimension' type='nominal' />
+      <column caption='Workout Score' datatype='string' name='[WorkoutScore]' role='dimension' type='nominal' />
+      <_.fcp.ObjectModelTableType.true...column caption='daily_tracking.csv' datatype='table' name='[__tableau_internal_object_id__].[daily_tracking.csv_EF151BF3525647AA8E406B76F72FDE0B]' role='measure' type='quantitative' />
+      <column-instance column='[Vitamins]' derivation='None' name='[none:Vitamins:nk]' pivot='key' type='nominal' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:Vitamins:nk]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>%null%</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Yes&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;No&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='daily_tracking.csv' id='daily_tracking.csv_EF151BF3525647AA8E406B76F72FDE0B'>
+            <properties context=''>
+              <relation connection='textscan.0eq92v815ydk9o0zntzpx18ehmq0' name='daily_tracking.csv' table='[daily_tracking#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+                  <column datatype='date' name='Date' ordinal='0' />
+                  <column datatype='string' name='DayOfWeek' ordinal='1' />
+                  <column datatype='real' name='WakeUpTime' ordinal='2' />
+                  <column datatype='real' name='BedTime' ordinal='3' />
+                  <column datatype='real' name='HoursOfSleep' ordinal='4' />
+                  <column datatype='integer' name='SleepScore' ordinal='5' />
+                  <column datatype='string' name='UpAtFirstAlarm' ordinal='6' />
+                  <column datatype='string' name='Breakfast' ordinal='7' />
+                  <column datatype='integer' name='HRV' ordinal='8' />
+                  <column datatype='integer' name='OxygenSaturation' ordinal='9' />
+                  <column datatype='integer' name='FocusLevel' ordinal='10' />
+                  <column datatype='string' name='Workout' ordinal='11' />
+                  <column datatype='string' name='WorkoutScore' ordinal='12' />
+                  <column datatype='integer' name='BrushedTeeth' ordinal='13' />
+                  <column datatype='integer' name='Water' ordinal='14' />
+                  <column datatype='integer' name='HeartRate' ordinal='15' />
+                  <column datatype='string' name='Shower' ordinal='16' />
+                  <column datatype='string' name='ProductiveMorning' ordinal='17' />
+                  <column datatype='string' name='MorningProductiveThing' ordinal='18' />
+                  <column datatype='string' name='FruitOrVegetable' ordinal='19' />
+                  <column datatype='string' name='LearnedSomething' ordinal='20' />
+                  <column datatype='string' name='WhatWasLearned' ordinal='21' />
+                  <column datatype='string' name='Rosary' ordinal='22' />
+                  <column datatype='string' name='Bible' ordinal='23' />
+                  <column datatype='integer' name='PagesRead' ordinal='24' />
+                  <column datatype='string' name='BookBeingRead' ordinal='25' />
+                  <column datatype='string' name='Vitamins' ordinal='26' />
+                  <column datatype='real' name='TimeTaken' ordinal='27' />
+                  <column datatype='string' name='Journal' ordinal='28' />
+                  <column datatype='string' name='Migraine' ordinal='29' />
+                  <column datatype='string' name='Alcohol' ordinal='30' />
+                  <column datatype='string' name='UsedPlanner' ordinal='31' />
+                  <column datatype='real' name='ScreenTime' ordinal='32' />
+                  <column datatype='integer' name='CaffeineIntake' ordinal='33' />
+                  <column datatype='integer' name='FatigueLevelAt2' ordinal='34' />
+                  <column datatype='integer' name='MorningHappinessLevel' ordinal='35' />
+                  <column datatype='integer' name='NightHappinessLevel' ordinal='36' />
+                  <column datatype='integer' name='HappinessChange' ordinal='37' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <actions>
+    <action caption='Highlight 1 (generated)' name='[Action1]'>
+      <activation auto-clear='true' type='on-select' />
+      <source type='sheet' worksheet='Sheet 2' />
+      <command command='tsc:brush'>
+        <param name='field-captions' value='Vitamins' />
+        <param name='target' value='Sheet 2' />
+      </command>
+    </action>
+  </actions>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run><![CDATA[<Day of Week v. Wake up time and heart rate>]]></run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='daily_tracking' name='federated.0z1rcmd00v14vr13nimkm03v82d9' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0z1rcmd00v14vr13nimkm03v82d9'>
+            <column caption='Caffeine Intake' datatype='integer' name='[CaffeineIntake]' role='measure' type='quantitative' />
+            <column caption='Day Of Week' datatype='string' name='[DayOfWeek]' role='dimension' type='nominal' />
+            <column caption='Heart Rate' datatype='integer' name='[HeartRate]' role='measure' type='quantitative' />
+            <column caption='Wake Up Time' datatype='real' name='[WakeUpTime]' role='measure' type='quantitative' />
+            <column-instance column='[CaffeineIntake]' derivation='Avg' name='[avg:CaffeineIntake:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[HeartRate]' derivation='Avg' name='[avg:HeartRate:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[WakeUpTime]' derivation='Avg' name='[avg:WakeUpTime:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[DayOfWeek]' derivation='None' name='[none:DayOfWeek:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.0z1rcmd00v14vr13nimkm03v82d9].[avg:HeartRate:qk]' palette='red_10_0' type='interpolated' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='4' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0z1rcmd00v14vr13nimkm03v82d9].[avg:HeartRate:qk]' />
+              <text column='[federated.0z1rcmd00v14vr13nimkm03v82d9].[avg:CaffeineIntake:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0z1rcmd00v14vr13nimkm03v82d9].[avg:WakeUpTime:qk]</rows>
+        <cols>[federated.0z1rcmd00v14vr13nimkm03v82d9].[none:DayOfWeek:nk]</cols>
+      </table>
+      <simple-id uuid='{FCE8FF17-6ED6-4747-987F-E8B5224EDF54}' />
+    </worksheet>
+    <worksheet name='Sheet 2'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Trend of HRV with labeled wake up time</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='daily_tracking' name='federated.0z1rcmd00v14vr13nimkm03v82d9' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0z1rcmd00v14vr13nimkm03v82d9'>
+            <column datatype='date' name='[Date]' role='dimension' type='ordinal' />
+            <column datatype='integer' name='[HRV]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Vitamins]' role='dimension' type='nominal' />
+            <column caption='Wake Up Time' datatype='real' name='[WakeUpTime]' role='measure' type='quantitative' />
+            <column-instance column='[Date]' derivation='None' name='[none:Date:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Vitamins]' derivation='None' name='[none:Vitamins:nk]' pivot='key' type='nominal' />
+            <column-instance column='[HRV]' derivation='Sum' name='[sum:HRV:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[WakeUpTime]' derivation='Sum' name='[sum:WakeUpTime:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0z1rcmd00v14vr13nimkm03v82d9].[none:Vitamins:nk]'>
+            <groupfilter function='except' user:ui-domain='relevant' user:ui-enumeration='exclusive' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:Vitamins:nk]' />
+              <groupfilter function='member' level='[none:Vitamins:nk]' member='%null%' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.0z1rcmd00v14vr13nimkm03v82d9].[none:Vitamins:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0z1rcmd00v14vr13nimkm03v82d9].[none:Vitamins:nk]' />
+              <text column='[federated.0z1rcmd00v14vr13nimkm03v82d9].[sum:WakeUpTime:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0z1rcmd00v14vr13nimkm03v82d9].[sum:HRV:qk]</rows>
+        <cols>[federated.0z1rcmd00v14vr13nimkm03v82d9].[none:Date:qk]</cols>
+      </table>
+      <simple-id uuid='{CE1E94CE-7C52-4177-A084-A25FF2D3D074}' />
+    </worksheet>
+  </worksheets>
+  <windows saved-dpi-scale-factor='1.25' show-side-pane='false' source-height='37'>
+    <window class='worksheet' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='4' param='[federated.0z1rcmd00v14vr13nimkm03v82d9].[avg:HeartRate:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0z1rcmd00v14vr13nimkm03v82d9].[:Measure Names]</field>
+            <field>[federated.0z1rcmd00v14vr13nimkm03v82d9].[avg:HeartRate:qk]</field>
+            <field>[federated.0z1rcmd00v14vr13nimkm03v82d9].[none:DayOfWeek:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{8D57AE5B-25C7-4DFB-B225-6780E9587B44}' />
+    </window>
+    <window class='worksheet' maximized='true' name='Sheet 2'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0z1rcmd00v14vr13nimkm03v82d9].[none:Vitamins:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0z1rcmd00v14vr13nimkm03v82d9].[yr:Date:ok]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{2DD808A5-A74E-4FE1-BD19-1525EA51525F}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Sheet 1' width='192'>
+      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
+      olYAAAAASUVORK5CYII=
+    </thumbnail>
+    <thumbnail height='192' name='Sheet 2' width='192'>
+      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
+      TkSuQmCC
+    </thumbnail>
+  </thumbnails>
+</workbook>
